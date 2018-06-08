@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('choice_text', models.CharField(max_length=200)),
-                ('votex', models.IntegerField(default=0)),
+                ('votes', models.IntegerField(default=0)),
             ],
         ),
         migrations.CreateModel(
